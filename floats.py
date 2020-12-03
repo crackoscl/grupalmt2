@@ -12,7 +12,7 @@ promedio_lista = mean(lista)
 maximo = max(lista)
 
 for i in lista:
-    lista_normalizada.append((i - promedio_lista)/ maximo)
+    lista_normalizada.append((i - promedio_lista) / maximo)
 
 print(promedio_lista)
 print(lista)
